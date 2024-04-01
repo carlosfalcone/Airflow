@@ -1,0 +1,308 @@
+[2024-03-23T21:00:48.739-0300] {processor.py:153} INFO - Started process (PID=7627) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:00:48.739-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:00:48.740-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:00:48.740-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:00:48.748-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:00:48.782-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:00:48.782-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:00:48.796-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:00:48.796-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:00:48.812-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.074 seconds
+[2024-03-23T21:01:19.502-0300] {processor.py:153} INFO - Started process (PID=7685) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:01:19.503-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:01:19.504-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:19.504-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:01:19.512-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:01:19.523-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:19.523-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:01:19.537-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:19.537-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:01:19.552-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:01:50.462-0300] {processor.py:153} INFO - Started process (PID=7756) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:01:50.462-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:01:50.462-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:50.462-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:01:50.470-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:01:50.481-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:50.481-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:01:50.496-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:50.496-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:01:50.511-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.051 seconds
+[2024-03-23T21:02:20.872-0300] {processor.py:153} INFO - Started process (PID=7811) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:02:20.873-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:02:20.874-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:20.874-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:02:20.881-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:02:20.892-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:20.892-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:02:20.907-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:20.907-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:02:20.921-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.051 seconds
+[2024-03-23T21:02:51.280-0300] {processor.py:153} INFO - Started process (PID=7866) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:02:51.280-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:02:51.281-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:51.280-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:02:51.288-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:02:51.299-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:51.299-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:02:51.315-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:51.315-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:02:51.330-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:03:21.697-0300] {processor.py:153} INFO - Started process (PID=7921) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:03:21.697-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:03:21.698-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:21.698-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:03:21.705-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:03:21.717-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:21.717-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:03:21.733-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:21.732-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:03:21.748-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:03:52.033-0300] {processor.py:153} INFO - Started process (PID=7976) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:03:52.034-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:03:52.034-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:52.034-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:03:52.042-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:03:52.053-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:52.053-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:03:52.068-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:52.068-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:03:52.083-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.051 seconds
+[2024-03-23T21:04:22.317-0300] {processor.py:153} INFO - Started process (PID=8031) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:04:22.318-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:04:22.319-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:22.318-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:04:22.326-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:04:22.337-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:22.337-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:04:22.352-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:22.352-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:04:22.367-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:04:52.602-0300] {processor.py:153} INFO - Started process (PID=8087) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:04:52.603-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:04:52.603-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:52.603-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:04:52.611-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:04:52.622-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:52.622-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:04:52.637-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:52.637-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:04:52.657-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.057 seconds
+[2024-03-23T21:05:22.887-0300] {processor.py:153} INFO - Started process (PID=8142) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:05:22.887-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:05:22.888-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:22.887-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:05:22.896-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:05:22.907-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:22.907-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:05:22.923-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:22.923-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:05:22.938-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:05:53.172-0300] {processor.py:153} INFO - Started process (PID=8197) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:05:53.173-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:05:53.173-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:53.173-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:05:53.181-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:05:53.193-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:53.192-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:05:53.208-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:53.208-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:05:53.222-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:06:23.456-0300] {processor.py:153} INFO - Started process (PID=8252) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:06:23.456-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:06:23.457-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:23.457-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:06:23.465-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:06:23.476-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:23.476-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:06:23.491-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:23.491-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:06:23.508-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.054 seconds
+[2024-03-23T21:06:53.651-0300] {processor.py:153} INFO - Started process (PID=8307) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:06:53.652-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:06:53.653-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:53.653-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:06:53.661-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:06:53.672-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:53.672-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:06:53.687-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:53.687-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:06:53.703-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:07:23.833-0300] {processor.py:153} INFO - Started process (PID=8362) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:07:23.833-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:07:23.834-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:23.834-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:07:23.842-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:07:23.853-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:23.853-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:07:23.868-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:23.868-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:07:23.883-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:07:54.521-0300] {processor.py:153} INFO - Started process (PID=8417) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:07:54.522-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:07:54.522-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:54.522-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:07:54.530-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:07:54.541-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:54.541-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:07:54.556-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:54.556-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:07:54.572-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:08:24.937-0300] {processor.py:153} INFO - Started process (PID=8472) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:08:24.938-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:08:24.938-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:24.938-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:08:24.946-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:08:24.957-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:24.957-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:08:24.972-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:24.972-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:08:24.988-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:08:55.325-0300] {processor.py:153} INFO - Started process (PID=8527) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:08:55.327-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:08:55.327-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:55.327-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:08:55.335-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:08:55.346-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:55.346-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:08:55.361-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:55.361-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:08:55.376-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:09:25.569-0300] {processor.py:153} INFO - Started process (PID=8582) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:09:25.570-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:09:25.571-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:25.571-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:09:25.579-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:09:25.589-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:25.589-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:09:25.604-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:25.604-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:09:25.621-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:09:55.750-0300] {processor.py:153} INFO - Started process (PID=8637) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:09:55.751-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:09:55.752-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:55.752-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:09:55.760-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:09:55.770-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:55.770-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:09:55.785-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:55.785-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:09:55.799-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.050 seconds
+[2024-03-23T21:10:25.934-0300] {processor.py:153} INFO - Started process (PID=8692) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:10:25.935-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:10:25.935-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:25.935-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:10:25.943-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:10:25.954-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:25.953-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:10:25.968-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:25.968-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:10:25.984-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:10:56.532-0300] {processor.py:153} INFO - Started process (PID=8747) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:10:56.534-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:10:56.534-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:56.534-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:10:56.542-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:10:56.553-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:56.553-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:10:56.568-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:56.568-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:10:56.585-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.054 seconds
+[2024-03-23T21:11:26.688-0300] {processor.py:153} INFO - Started process (PID=8802) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:11:26.688-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:11:26.689-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:26.689-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:11:26.696-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:11:26.707-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:26.707-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:11:26.722-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:26.722-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:11:26.737-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.051 seconds
+[2024-03-23T21:11:56.842-0300] {processor.py:153} INFO - Started process (PID=8857) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:11:56.843-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:11:56.844-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:56.844-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:11:56.852-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:11:56.863-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:56.863-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:11:56.879-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:56.879-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:11:56.895-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.054 seconds
+[2024-03-23T21:12:28.025-0300] {processor.py:153} INFO - Started process (PID=8912) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:12:28.026-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:12:28.027-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:28.026-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:12:28.034-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:12:28.045-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:28.045-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:12:28.060-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:28.060-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:12:28.075-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:12:58.250-0300] {processor.py:153} INFO - Started process (PID=8967) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:12:58.251-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:12:58.251-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:58.251-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:12:58.259-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:12:58.270-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:58.270-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:12:58.285-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:58.285-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:12:58.300-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:13:28.405-0300] {processor.py:153} INFO - Started process (PID=9022) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:13:28.406-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:13:28.407-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:28.407-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:13:28.415-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:13:28.426-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:28.426-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:13:28.440-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:28.440-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:13:28.455-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:13:58.562-0300] {processor.py:153} INFO - Started process (PID=9077) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:13:58.563-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:13:58.564-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:58.564-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:13:58.571-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:13:58.582-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:58.582-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:13:58.597-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:58.597-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:13:58.613-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:14:28.717-0300] {processor.py:153} INFO - Started process (PID=9132) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:14:28.718-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:14:28.719-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:28.719-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:14:28.727-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:14:28.738-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:28.738-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:14:28.753-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:28.753-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:14:28.768-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:14:58.873-0300] {processor.py:153} INFO - Started process (PID=9187) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:14:58.874-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:14:58.875-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:58.875-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:14:58.882-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:14:58.893-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:58.893-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:14:58.909-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:58.908-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:14:58.925-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.054 seconds
+[2024-03-23T21:15:29.028-0300] {processor.py:153} INFO - Started process (PID=9242) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:15:29.029-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:15:29.029-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:29.029-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:15:29.039-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:15:29.052-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:29.052-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:15:29.068-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:29.068-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:15:29.085-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.059 seconds
+[2024-03-23T21:15:59.183-0300] {processor.py:153} INFO - Started process (PID=9294) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:15:59.184-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:15:59.185-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:59.185-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:15:59.193-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:15:59.204-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:59.204-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:15:59.219-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:59.219-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:15:59.235-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:16:30.366-0300] {processor.py:153} INFO - Started process (PID=9352) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:16:30.366-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:16:30.367-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:30.367-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:16:30.375-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:16:30.386-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:30.386-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:16:30.400-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:30.400-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:16:30.416-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:17:00.522-0300] {processor.py:153} INFO - Started process (PID=9407) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:17:00.523-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:17:00.524-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:00.524-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:17:00.532-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:17:00.543-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:00.543-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:17:00.558-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:00.558-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:17:00.572-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:17:30.677-0300] {processor.py:153} INFO - Started process (PID=9462) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:17:30.678-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:17:30.678-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:30.678-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:17:30.686-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:17:30.697-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:30.697-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:17:30.712-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:30.712-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:17:30.727-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:18:00.835-0300] {processor.py:153} INFO - Started process (PID=9517) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:18:00.836-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:18:00.837-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:00.837-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:18:00.844-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:18:00.855-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:00.855-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:18:00.870-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:00.870-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:18:00.886-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:18:30.989-0300] {processor.py:153} INFO - Started process (PID=9569) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:18:30.990-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:18:30.990-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:30.990-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:18:30.998-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:18:31.009-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:31.009-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:18:31.025-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:31.025-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:18:31.040-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds
+[2024-03-23T21:19:01.146-0300] {processor.py:153} INFO - Started process (PID=9624) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:19:01.146-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:19:01.147-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:01.147-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:19:01.155-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:19:01.166-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:01.166-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:19:01.181-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:01.181-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:19:01.196-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:19:31.301-0300] {processor.py:153} INFO - Started process (PID=9679) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:19:31.302-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:19:31.302-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:31.302-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:19:31.310-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:19:31.321-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:31.321-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:19:31.336-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:31.336-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:19:31.351-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:20:01.456-0300] {processor.py:153} INFO - Started process (PID=9734) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:20:01.457-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:20:01.458-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:01.458-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:20:01.465-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:20:01.476-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:01.476-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:20:01.492-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:01.492-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:20:01.508-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.054 seconds
+[2024-03-23T21:20:32.634-0300] {processor.py:153} INFO - Started process (PID=9792) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:20:32.634-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:20:32.635-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:32.635-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:20:32.643-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:20:32.653-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:32.653-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:20:32.668-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:32.668-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:20:32.684-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.051 seconds
+[2024-03-23T21:21:02.916-0300] {processor.py:153} INFO - Started process (PID=9847) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:21:02.917-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:21:02.918-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:02.918-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:21:02.925-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:21:02.936-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:02.936-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:21:02.951-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:02.951-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:21:02.966-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:21:33.098-0300] {processor.py:153} INFO - Started process (PID=9902) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:21:33.098-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:21:33.099-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:33.099-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:21:33.106-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:21:33.117-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:33.117-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:21:33.132-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:33.132-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:21:33.149-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.052 seconds
+[2024-03-23T21:22:03.341-0300] {processor.py:153} INFO - Started process (PID=9954) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:22:03.342-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:22:03.342-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:03.342-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:22:03.350-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:22:03.361-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:03.361-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:22:03.376-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:03.376-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:22:03.391-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.051 seconds
+[2024-03-23T21:22:33.608-0300] {processor.py:153} INFO - Started process (PID=10009) to work on /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:22:33.608-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks.py for tasks to queue
+[2024-03-23T21:22:33.609-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:33.609-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:22:33.616-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks.py
+[2024-03-23T21:22:33.627-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:33.627-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:22:33.643-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:33.643-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2024-03-23T21:22:33.659-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks.py took 0.053 seconds

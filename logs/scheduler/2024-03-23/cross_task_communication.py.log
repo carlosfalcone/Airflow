@@ -1,0 +1,358 @@
+[2024-03-23T20:39:30.784-0300] {processor.py:153} INFO - Started process (PID=5231) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:39:30.784-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:39:30.785-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:39:30.785-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:39:30.791-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:39:30.790-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 35, in <module>
+    python_callable = greet_hello_with_city,
+NameError: name 'greet_hello_with_city' is not defined
+[2024-03-23T20:39:30.791-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:39:30.803-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.021 seconds
+[2024-03-23T20:40:01.195-0300] {processor.py:153} INFO - Started process (PID=5285) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:40:01.195-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:40:01.196-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:40:01.196-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:40:01.197-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:40:01.196-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 38
+    task_a >> task_b
+         ^
+SyntaxError: invalid syntax
+[2024-03-23T20:40:01.197-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:40:01.210-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.017 seconds
+[2024-03-23T20:40:31.605-0300] {processor.py:153} INFO - Started process (PID=5339) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:40:31.606-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:40:31.606-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:40:31.606-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:40:31.608-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:40:31.607-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 38
+    task_a >> task_b
+         ^
+SyntaxError: invalid syntax
+[2024-03-23T20:40:31.608-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:40:31.621-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.018 seconds
+[2024-03-23T20:41:01.773-0300] {processor.py:153} INFO - Started process (PID=5393) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:41:01.773-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:41:01.774-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:41:01.774-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:41:01.775-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:41:01.775-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 38
+    task_a >> task_b
+         ^
+SyntaxError: invalid syntax
+[2024-03-23T20:41:01.776-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:41:01.788-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.016 seconds
+[2024-03-23T20:41:31.928-0300] {processor.py:153} INFO - Started process (PID=5447) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:41:31.929-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:41:31.930-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:41:31.929-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:41:31.931-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:41:31.930-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 38
+    task_a >> task_b
+         ^
+SyntaxError: invalid syntax
+[2024-03-23T20:41:31.931-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:41:31.944-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.017 seconds
+[2024-03-23T20:42:02.084-0300] {processor.py:153} INFO - Started process (PID=5498) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:42:02.084-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:42:02.085-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:42:02.085-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:42:02.086-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:42:02.085-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 38
+    task_a >> task_b
+         ^
+SyntaxError: invalid syntax
+[2024-03-23T20:42:02.086-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:42:02.099-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.017 seconds
+[2024-03-23T20:42:32.240-0300] {processor.py:153} INFO - Started process (PID=5553) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:42:32.241-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:42:32.241-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:42:32.241-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:42:32.242-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:42:32.242-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/cross_task_communication.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/cross_task_communication.py", line 38
+    task_a >> task_b
+         ^
+SyntaxError: invalid syntax
+[2024-03-23T20:42:32.243-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:42:32.255-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.017 seconds
+[2024-03-23T20:43:03.249-0300] {processor.py:153} INFO - Started process (PID=5610) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:43:03.250-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:43:03.251-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.251-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:43:03.260-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:43:03.330-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.329-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:cross_task_communication
+[2024-03-23T20:43:03.338-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.337-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:cross_task_communication
+[2024-03-23T20:43:03.345-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.345-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:cross_task_communication
+[2024-03-23T20:43:03.346-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.345-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:43:03.354-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.354-0300] {dag.py:2726} INFO - Creating ORM DAG for cross_task_communication
+[2024-03-23T20:43:03.361-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:03.361-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-22T00:00:00+00:00, run_after=2024-03-23T00:00:00+00:00
+[2024-03-23T20:43:03.382-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.134 seconds
+[2024-03-23T20:43:33.619-0300] {processor.py:153} INFO - Started process (PID=5664) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:43:33.620-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:43:33.621-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:33.621-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:43:33.630-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:43:33.641-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:33.641-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:43:33.658-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:43:33.657-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-22T00:00:00+00:00, run_after=2024-03-23T00:00:00+00:00
+[2024-03-23T20:43:33.673-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.056 seconds
+[2024-03-23T20:44:03.776-0300] {processor.py:153} INFO - Started process (PID=5718) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:44:03.776-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:44:03.777-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:44:03.777-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:44:03.786-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:44:03.797-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:44:03.797-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:44:03.813-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:44:03.813-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-22T00:00:00+00:00, run_after=2024-03-23T00:00:00+00:00
+[2024-03-23T20:44:03.829-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:44:33.941-0300] {processor.py:153} INFO - Started process (PID=5780) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:44:33.942-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:44:33.942-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:44:33.942-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:44:33.952-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:44:33.964-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:44:33.963-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:44:33.981-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:44:33.981-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:44:33.998-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.059 seconds
+[2024-03-23T20:45:04.096-0300] {processor.py:153} INFO - Started process (PID=5831) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:45:04.097-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:45:04.098-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:45:04.098-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:45:04.107-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:45:04.118-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:45:04.118-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:45:04.133-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:45:04.133-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:45:04.149-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:45:34.251-0300] {processor.py:153} INFO - Started process (PID=5885) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:45:34.252-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:45:34.252-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:45:34.252-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:45:34.261-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:45:34.272-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:45:34.272-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:45:34.287-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:45:34.287-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:45:34.303-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.053 seconds
+[2024-03-23T20:46:04.409-0300] {processor.py:153} INFO - Started process (PID=5939) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:46:04.410-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:46:04.411-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:46:04.410-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:46:04.420-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:46:04.430-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:46:04.430-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:46:04.446-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:46:04.446-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:46:04.461-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:46:35.408-0300] {processor.py:153} INFO - Started process (PID=5996) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:46:35.409-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:46:35.410-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:46:35.410-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:46:35.419-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:46:35.430-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:46:35.430-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:46:35.445-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:46:35.445-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:46:35.461-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:47:05.750-0300] {processor.py:153} INFO - Started process (PID=6050) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:47:05.750-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:47:05.751-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:47:05.751-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:47:05.760-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:47:05.771-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:47:05.770-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:47:05.787-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:47:05.787-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:47:05.803-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:47:36.261-0300] {processor.py:153} INFO - Started process (PID=6104) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:47:36.262-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:47:36.262-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:47:36.262-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:47:36.271-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:47:36.283-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:47:36.283-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:47:36.299-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:47:36.299-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:47:36.314-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:48:06.675-0300] {processor.py:153} INFO - Started process (PID=6158) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:48:06.676-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:48:06.676-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:48:06.676-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:48:06.685-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:48:06.696-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:48:06.696-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:48:06.712-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:48:06.712-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:48:06.729-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:48:37.086-0300] {processor.py:153} INFO - Started process (PID=6212) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:48:37.088-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:48:37.088-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:48:37.088-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:48:37.097-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:48:37.108-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:48:37.108-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:48:37.124-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:48:37.124-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:48:37.139-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:49:07.403-0300] {processor.py:153} INFO - Started process (PID=6266) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:49:07.404-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:49:07.404-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:49:07.404-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:49:07.413-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:49:07.424-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:49:07.424-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:49:07.439-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:49:07.439-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:49:07.455-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.053 seconds
+[2024-03-23T20:49:37.562-0300] {processor.py:153} INFO - Started process (PID=6320) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:49:37.563-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:49:37.563-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:49:37.563-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:49:37.573-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:49:37.583-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:49:37.583-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:49:37.599-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:49:37.599-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:49:37.615-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:50:07.722-0300] {processor.py:153} INFO - Started process (PID=6374) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:50:07.722-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:50:07.722-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:50:07.722-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:50:07.731-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:50:07.742-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:50:07.742-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:50:07.758-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:50:07.758-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:50:07.774-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:50:37.980-0300] {processor.py:153} INFO - Started process (PID=6425) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:50:37.981-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:50:37.982-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:50:37.982-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:50:37.992-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:50:38.003-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:50:38.003-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:50:38.020-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:50:38.019-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:50:38.035-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.057 seconds
+[2024-03-23T20:51:08.241-0300] {processor.py:153} INFO - Started process (PID=6479) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:51:08.242-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:51:08.242-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:51:08.242-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:51:08.251-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:51:08.263-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:51:08.263-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:51:08.279-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:51:08.279-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:51:08.296-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.057 seconds
+[2024-03-23T20:51:38.502-0300] {processor.py:153} INFO - Started process (PID=6536) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:51:38.503-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:51:38.503-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:51:38.503-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:51:38.514-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:51:38.525-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:51:38.525-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:51:38.542-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:51:38.542-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:51:38.558-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.058 seconds
+[2024-03-23T20:52:08.762-0300] {processor.py:153} INFO - Started process (PID=6591) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:52:08.762-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:52:08.763-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:52:08.763-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:52:08.773-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:52:08.786-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:52:08.786-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:52:08.803-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:52:08.803-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:52:08.819-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.059 seconds
+[2024-03-23T20:52:38.918-0300] {processor.py:153} INFO - Started process (PID=6645) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:52:38.919-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:52:38.920-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:52:38.920-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:52:38.929-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:52:38.941-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:52:38.941-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:52:38.957-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:52:38.957-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:52:38.972-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:53:09.179-0300] {processor.py:153} INFO - Started process (PID=6699) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:53:09.179-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:53:09.180-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:53:09.179-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:53:09.189-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:53:09.200-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:53:09.200-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:53:09.216-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:53:09.216-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:53:09.233-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.056 seconds
+[2024-03-23T20:53:39.438-0300] {processor.py:153} INFO - Started process (PID=6753) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:53:39.440-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:53:39.440-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:53:39.440-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:53:39.449-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:53:39.460-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:53:39.460-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:53:39.476-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:53:39.476-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:53:39.492-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:54:09.701-0300] {processor.py:153} INFO - Started process (PID=6807) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:54:09.701-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:54:09.702-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:54:09.702-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:54:09.712-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:54:09.723-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:54:09.723-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:54:09.739-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:54:09.739-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:54:09.756-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.057 seconds
+[2024-03-23T20:54:39.958-0300] {processor.py:153} INFO - Started process (PID=6862) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:54:39.959-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:54:39.960-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:54:39.959-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:54:39.969-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:54:39.979-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:54:39.979-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:54:39.995-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:54:39.995-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:54:40.012-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:55:10.219-0300] {processor.py:153} INFO - Started process (PID=6917) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:55:10.220-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:55:10.220-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:55:10.220-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:55:10.229-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:55:10.240-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:55:10.240-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:55:10.258-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:55:10.257-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:55:10.274-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.056 seconds
+[2024-03-23T20:55:40.479-0300] {processor.py:153} INFO - Started process (PID=6972) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:55:40.480-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:55:40.481-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:55:40.481-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:55:40.490-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:55:40.502-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:55:40.502-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:55:40.519-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:55:40.519-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:55:40.536-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.058 seconds
+[2024-03-23T20:56:10.739-0300] {processor.py:153} INFO - Started process (PID=7027) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:56:10.739-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:56:10.740-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:56:10.740-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:56:10.749-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:56:10.760-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:56:10.760-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:56:10.776-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:56:10.776-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:56:10.792-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:56:40.998-0300] {processor.py:153} INFO - Started process (PID=7082) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:56:40.999-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:56:40.999-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:56:40.999-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:56:41.008-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:56:41.020-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:56:41.020-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:56:41.035-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:56:41.035-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:56:41.051-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.055 seconds
+[2024-03-23T20:57:11.256-0300] {processor.py:153} INFO - Started process (PID=7137) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:57:11.257-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:57:11.257-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:57:11.257-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:57:11.267-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:57:11.278-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:57:11.278-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:57:11.293-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:57:11.293-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:57:11.309-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:57:41.517-0300] {processor.py:153} INFO - Started process (PID=7192) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:57:41.519-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:57:41.519-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:57:41.519-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:57:41.529-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:57:41.540-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:57:41.540-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:57:41.557-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:57:41.557-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:57:41.572-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.056 seconds
+[2024-03-23T20:58:11.776-0300] {processor.py:153} INFO - Started process (PID=7247) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:58:11.777-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:58:11.777-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:58:11.777-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:58:11.787-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:58:11.799-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:58:11.798-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:58:11.816-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:58:11.816-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:58:11.833-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.058 seconds
+[2024-03-23T20:58:42.033-0300] {processor.py:153} INFO - Started process (PID=7302) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:58:42.034-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:58:42.035-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:58:42.035-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:58:42.044-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:58:42.055-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:58:42.055-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:58:42.071-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:58:42.071-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:58:42.090-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.059 seconds
+[2024-03-23T20:59:12.293-0300] {processor.py:153} INFO - Started process (PID=7357) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:59:12.294-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:59:12.294-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:59:12.294-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:59:12.303-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:59:12.314-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:59:12.314-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:59:12.330-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:59:12.330-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:59:12.345-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.054 seconds
+[2024-03-23T20:59:42.559-0300] {processor.py:153} INFO - Started process (PID=7412) to work on /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:59:42.560-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/cross_task_communication.py for tasks to queue
+[2024-03-23T20:59:42.561-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:59:42.561-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:59:42.570-0300] {processor.py:753} INFO - DAG(s) dict_keys(['cross_task_communication']) retrieved from /home/carlosfalcone/airflow/dags/cross_task_communication.py
+[2024-03-23T20:59:42.581-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:59:42.581-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T20:59:42.597-0300] {logging_mixin.py:137} INFO - [2024-03-23T20:59:42.597-0300] {dag.py:3456} INFO - Setting next_dagrun for cross_task_communication to 2024-03-23T00:00:00+00:00, run_after=2024-03-24T00:00:00+00:00
+[2024-03-23T20:59:42.614-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/cross_task_communication.py took 0.056 seconds

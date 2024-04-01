@@ -1,0 +1,24 @@
+[2024-03-23T21:01:37.397-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication2.subtract_9 manual__2024-03-24T00:01:33.359437+00:00 [queued]>
+[2024-03-23T21:01:37.402-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication2.subtract_9 manual__2024-03-24T00:01:33.359437+00:00 [queued]>
+[2024-03-23T21:01:37.402-0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-23T21:01:37.402-0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-03-23T21:01:37.402-0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-23T21:01:37.413-0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): subtract_9> on 2024-03-24 00:01:33.359437+00:00
+[2024-03-23T21:01:37.414-0300] {standard_task_runner.py:55} INFO - Started process 7723 to run task
+[2024-03-23T21:01:37.416-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication2', 'subtract_9', 'manual__2024-03-24T00:01:33.359437+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/cross_task_communication2.py', '--cfg-path', '/tmp/tmpz567pw45']
+[2024-03-23T21:01:37.416-0300] {standard_task_runner.py:83} INFO - Job 120: Subtask subtract_9
+[2024-03-23T21:01:37.446-0300] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication2.subtract_9 manual__2024-03-24T00:01:33.359437+00:00 [running]> on host DESKTOP-0DNP0LN.localdomain
+[2024-03-23T21:01:37.487-0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=falcone
+AIRFLOW_CTX_DAG_ID=cross_task_communication2
+AIRFLOW_CTX_TASK_ID=subtract_9
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-24T00:01:33.359437+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-24T00:01:33.359437+00:00
+[2024-03-23T21:01:37.491-0300] {logging_mixin.py:137} INFO - Value 200!
+[2024-03-23T21:01:37.491-0300] {python.py:177} INFO - Done. Returned value was: 191
+[2024-03-23T21:01:37.502-0300] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=cross_task_communication2, task_id=subtract_9, execution_date=20240324T000133, start_date=20240324T000137, end_date=20240324T000137
+[2024-03-23T21:01:37.548-0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-03-23T21:01:37.557-0300] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

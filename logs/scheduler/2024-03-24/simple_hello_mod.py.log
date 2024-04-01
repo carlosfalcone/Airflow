@@ -1,0 +1,308 @@
+[2024-03-23T21:00:49.218-0300] {processor.py:153} INFO - Started process (PID=7631) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:00:49.219-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:00:49.219-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:00:49.219-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:00:49.228-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:00:49.263-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:00:49.263-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:00:49.277-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:00:49.277-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:00:49.295-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.078 seconds
+[2024-03-23T21:01:19.777-0300] {processor.py:153} INFO - Started process (PID=7686) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:01:19.778-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:01:19.779-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:19.779-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:01:19.787-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:01:19.798-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:19.798-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:01:19.814-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:19.814-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:01:19.830-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.055 seconds
+[2024-03-23T21:01:51.600-0300] {processor.py:153} INFO - Started process (PID=7757) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:01:51.600-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:01:51.601-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:51.600-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:01:51.610-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:01:51.621-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:51.620-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:01:51.637-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:01:51.637-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:01:51.651-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:02:22.009-0300] {processor.py:153} INFO - Started process (PID=7815) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:02:22.010-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:02:22.010-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:22.010-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:02:22.019-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:02:22.030-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:22.030-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:02:22.046-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:22.046-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:02:22.061-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:02:52.418-0300] {processor.py:153} INFO - Started process (PID=7870) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:02:52.419-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:02:52.419-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:52.419-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:02:52.428-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:02:52.439-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:52.439-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:02:52.454-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:02:52.454-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:02:52.475-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.059 seconds
+[2024-03-23T21:03:22.834-0300] {processor.py:153} INFO - Started process (PID=7925) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:03:22.835-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:03:22.836-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:22.836-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:03:22.845-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:03:22.855-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:22.855-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:03:22.872-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:22.871-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:03:22.886-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:03:53.171-0300] {processor.py:153} INFO - Started process (PID=7980) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:03:53.172-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:03:53.172-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:53.172-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:03:53.181-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:03:53.192-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:53.191-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:03:53.207-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:03:53.207-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:03:53.222-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:04:23.455-0300] {processor.py:153} INFO - Started process (PID=8035) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:04:23.457-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:04:23.457-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:23.457-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:04:23.466-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:04:23.477-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:23.477-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:04:23.493-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:23.493-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:04:23.508-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.055 seconds
+[2024-03-23T21:04:53.740-0300] {processor.py:153} INFO - Started process (PID=8091) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:04:53.741-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:04:53.741-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:53.741-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:04:53.750-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:04:53.761-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:53.761-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:04:53.777-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:04:53.777-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:04:53.792-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:05:24.024-0300] {processor.py:153} INFO - Started process (PID=8143) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:05:24.025-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:05:24.025-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:24.025-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:05:24.034-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:05:24.045-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:24.045-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:05:24.061-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:24.061-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:05:24.076-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:05:54.310-0300] {processor.py:153} INFO - Started process (PID=8198) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:05:54.311-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:05:54.312-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:54.312-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:05:54.321-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:05:54.332-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:54.331-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:05:54.347-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:05:54.347-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:05:54.362-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:06:24.622-0300] {processor.py:153} INFO - Started process (PID=8253) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:06:24.623-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:06:24.623-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:24.623-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:06:24.632-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:06:24.642-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:24.642-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:06:24.658-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:24.658-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:06:24.673-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:06:54.931-0300] {processor.py:153} INFO - Started process (PID=8308) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:06:54.933-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:06:54.933-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:54.933-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:06:54.942-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:06:54.953-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:54.953-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:06:54.969-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:06:54.969-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:06:54.984-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:07:25.246-0300] {processor.py:153} INFO - Started process (PID=8363) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:07:25.247-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:07:25.247-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:25.247-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:07:25.256-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:07:25.267-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:25.267-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:07:25.283-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:25.283-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:07:25.299-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:07:55.660-0300] {processor.py:153} INFO - Started process (PID=8418) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:07:55.661-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:07:55.661-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:55.661-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:07:55.670-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:07:55.681-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:55.681-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:07:55.697-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:07:55.697-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:07:55.715-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.057 seconds
+[2024-03-23T21:08:25.793-0300] {processor.py:153} INFO - Started process (PID=8473) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:08:25.794-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:08:25.794-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:25.794-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:08:25.803-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:08:25.814-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:25.814-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:08:25.830-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:25.830-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:08:25.845-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:08:55.950-0300] {processor.py:153} INFO - Started process (PID=8528) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:08:55.951-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:08:55.952-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:55.952-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:08:55.961-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:08:55.972-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:55.971-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:08:55.987-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:08:55.987-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:08:56.003-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:09:26.105-0300] {processor.py:153} INFO - Started process (PID=8583) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:09:26.106-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:09:26.107-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:26.107-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:09:26.116-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:09:26.126-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:26.126-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:09:26.142-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:26.142-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:09:26.159-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.056 seconds
+[2024-03-23T21:09:56.259-0300] {processor.py:153} INFO - Started process (PID=8638) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:09:56.260-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:09:56.260-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:56.260-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:09:56.269-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:09:56.280-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:56.280-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:09:56.295-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:09:56.295-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:09:56.310-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:10:26.367-0300] {processor.py:153} INFO - Started process (PID=8693) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:10:26.368-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:10:26.369-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:26.368-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:10:26.377-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:10:26.388-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:26.388-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:10:26.404-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:26.404-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:10:26.419-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:10:56.783-0300] {processor.py:153} INFO - Started process (PID=8748) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:10:56.784-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:10:56.784-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:56.784-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:10:56.793-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:10:56.804-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:56.803-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:10:56.820-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:10:56.820-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:10:56.835-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:11:27.199-0300] {processor.py:153} INFO - Started process (PID=8803) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:11:27.199-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:11:27.200-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:27.199-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:11:27.208-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:11:27.219-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:27.219-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:11:27.235-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:27.235-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:11:27.250-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:11:57.611-0300] {processor.py:153} INFO - Started process (PID=8858) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:11:57.612-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:11:57.612-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:57.612-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:11:57.621-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:11:57.633-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:57.633-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:11:57.649-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:11:57.649-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:11:57.664-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.055 seconds
+[2024-03-23T21:12:29.163-0300] {processor.py:153} INFO - Started process (PID=8916) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:12:29.164-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:12:29.165-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:29.165-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:12:29.174-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:12:29.185-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:29.185-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:12:29.201-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:29.201-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:12:29.216-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:12:59.473-0300] {processor.py:153} INFO - Started process (PID=8971) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:12:59.474-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:12:59.474-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:59.474-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:12:59.483-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:12:59.493-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:59.493-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:12:59.509-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:12:59.509-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:12:59.524-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:13:29.783-0300] {processor.py:153} INFO - Started process (PID=9026) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:13:29.784-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:13:29.785-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:29.785-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:13:29.794-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:13:29.804-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:29.804-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:13:29.820-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:13:29.820-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:13:29.835-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:14:00.096-0300] {processor.py:153} INFO - Started process (PID=9081) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:14:00.097-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:14:00.098-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:00.097-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:14:00.107-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:14:00.117-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:00.117-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:14:00.133-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:00.133-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:14:00.149-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.055 seconds
+[2024-03-23T21:14:30.415-0300] {processor.py:153} INFO - Started process (PID=9136) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:14:30.416-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:14:30.417-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:30.417-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:14:30.426-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:14:30.437-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:30.437-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:14:30.453-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:14:30.453-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:14:30.469-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.056 seconds
+[2024-03-23T21:15:00.727-0300] {processor.py:153} INFO - Started process (PID=9191) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:15:00.727-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:15:00.728-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:00.728-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:15:00.737-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:15:00.748-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:00.748-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:15:00.764-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:00.764-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:15:00.781-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.056 seconds
+[2024-03-23T21:15:31.036-0300] {processor.py:153} INFO - Started process (PID=9246) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:15:31.037-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:15:31.037-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:31.037-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:15:31.046-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:15:31.057-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:31.057-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:15:31.073-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:15:31.073-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:15:31.088-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:16:01.320-0300] {processor.py:153} INFO - Started process (PID=9298) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:16:01.321-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:16:01.321-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:01.321-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:16:01.331-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:16:01.343-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:01.342-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:16:01.358-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:01.358-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:16:01.374-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.056 seconds
+[2024-03-23T21:16:31.636-0300] {processor.py:153} INFO - Started process (PID=9353) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:16:31.637-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:16:31.638-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:31.638-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:16:31.647-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:16:31.657-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:31.657-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:16:31.675-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:16:31.674-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:16:31.688-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:17:01.921-0300] {processor.py:153} INFO - Started process (PID=9408) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:17:01.922-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:17:01.923-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:01.923-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:17:01.931-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:17:01.942-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:01.942-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:17:01.958-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:01.958-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:17:01.972-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:17:32.238-0300] {processor.py:153} INFO - Started process (PID=9463) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:17:32.239-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:17:32.240-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:32.239-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:17:32.249-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:17:32.260-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:32.260-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:17:32.276-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:17:32.275-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:17:32.291-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:18:02.556-0300] {processor.py:153} INFO - Started process (PID=9518) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:18:02.557-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:18:02.558-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:02.558-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:18:02.566-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:18:02.577-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:02.577-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:18:02.593-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:02.593-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:18:02.608-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:18:32.871-0300] {processor.py:153} INFO - Started process (PID=9573) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:18:32.871-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:18:32.871-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:32.871-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:18:32.880-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:18:32.891-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:32.891-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:18:32.907-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:18:32.907-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:18:32.927-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.058 seconds
+[2024-03-23T21:19:03.179-0300] {processor.py:153} INFO - Started process (PID=9628) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:19:03.180-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:19:03.181-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:03.181-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:19:03.190-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:19:03.200-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:03.200-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:19:03.216-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:03.216-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:19:03.231-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:19:33.478-0300] {processor.py:153} INFO - Started process (PID=9683) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:19:33.479-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:19:33.479-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:33.479-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:19:33.488-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:19:33.499-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:33.499-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:19:33.515-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:19:33.515-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:19:33.530-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:20:03.790-0300] {processor.py:153} INFO - Started process (PID=9738) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:20:03.791-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:20:03.792-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:03.791-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:20:03.801-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:20:03.811-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:03.811-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:20:03.827-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:03.827-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:20:03.842-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:20:34.099-0300] {processor.py:153} INFO - Started process (PID=9793) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:20:34.100-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:20:34.100-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:34.100-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:20:34.109-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:20:34.121-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:34.121-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:20:34.138-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:20:34.138-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:20:34.154-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.057 seconds
+[2024-03-23T21:21:04.409-0300] {processor.py:153} INFO - Started process (PID=9848) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:21:04.410-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:21:04.411-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:04.411-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:21:04.419-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:21:04.430-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:04.430-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:21:04.446-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:04.446-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:21:04.461-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:21:34.721-0300] {processor.py:153} INFO - Started process (PID=9903) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:21:34.721-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:21:34.722-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:34.721-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:21:34.730-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:21:34.741-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:34.741-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:21:34.757-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:21:34.757-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:21:34.772-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.053 seconds
+[2024-03-23T21:22:05.033-0300] {processor.py:153} INFO - Started process (PID=9958) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:22:05.034-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:22:05.035-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:05.035-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:22:05.043-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:22:05.054-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:05.054-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:22:05.071-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:05.070-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:22:05.085-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds
+[2024-03-23T21:22:35.347-0300] {processor.py:153} INFO - Started process (PID=10013) to work on /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:22:35.348-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/simple_hello_mod.py for tasks to queue
+[2024-03-23T21:22:35.349-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:35.349-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:22:35.357-0300] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_mod']) retrieved from /home/carlosfalcone/airflow/dags/simple_hello_mod.py
+[2024-03-23T21:22:35.368-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:35.368-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-23T21:22:35.385-0300] {logging_mixin.py:137} INFO - [2024-03-23T21:22:35.384-0300] {dag.py:3456} INFO - Setting next_dagrun for hello_world_mod to 2024-03-24T00:00:00+00:00, run_after=2024-03-25T00:00:00+00:00
+[2024-03-23T21:22:35.399-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/simple_hello_mod.py took 0.054 seconds

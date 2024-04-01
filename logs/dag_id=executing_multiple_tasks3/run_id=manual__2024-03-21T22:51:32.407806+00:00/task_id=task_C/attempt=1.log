@@ -1,0 +1,34 @@
+[2024-03-21T19:51:41.389-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_multiple_tasks3.task_C manual__2024-03-21T22:51:32.407806+00:00 [queued]>
+[2024-03-21T19:51:41.394-0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_multiple_tasks3.task_C manual__2024-03-21T22:51:32.407806+00:00 [queued]>
+[2024-03-21T19:51:41.394-0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-21T19:51:41.394-0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-03-21T19:51:41.394-0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-21T19:51:41.405-0300] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): task_C> on 2024-03-21 22:51:32.407806+00:00
+[2024-03-21T19:51:41.406-0300] {standard_task_runner.py:55} INFO - Started process 3659 to run task
+[2024-03-21T19:51:41.408-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'executing_multiple_tasks3', 'task_C', 'manual__2024-03-21T22:51:32.407806+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/multiple_tasks3.py', '--cfg-path', '/tmp/tmp0nn2c_8x']
+[2024-03-21T19:51:41.408-0300] {standard_task_runner.py:83} INFO - Job 52: Subtask task_C
+[2024-03-21T19:51:41.439-0300] {task_command.py:389} INFO - Running <TaskInstance: executing_multiple_tasks3.task_C manual__2024-03-21T22:51:32.407806+00:00 [running]> on host DESKTOP-0DNP0LN.localdomain
+[2024-03-21T19:51:41.479-0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=falcone
+AIRFLOW_CTX_DAG_ID=executing_multiple_tasks3
+AIRFLOW_CTX_TASK_ID=task_C
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-21T22:51:32.407806+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-21T22:51:32.407806+00:00
+[2024-03-21T19:51:41.480-0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-03-21T19:51:41.480-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo Task C has started!\nsleep 3\n# task will fail when using exit 99\nexit 130\necho Task C has ended!']
+[2024-03-21T19:51:41.483-0300] {subprocess.py:86} INFO - Output:
+[2024-03-21T19:51:41.483-0300] {subprocess.py:93} INFO - Task C has started!
+[2024-03-21T19:51:44.484-0300] {subprocess.py:97} INFO - Command exited with return code 130
+[2024-03-21T19:51:44.489-0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 130.
+[2024-03-21T19:51:44.491-0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=executing_multiple_tasks3, task_id=task_C, execution_date=20240321T225132, start_date=20240321T225141, end_date=20240321T225144
+[2024-03-21T19:51:44.501-0300] {standard_task_runner.py:105} ERROR - Failed to execute job 52 for task task_C (Bash command failed. The command returned a non-zero exit code 130.; 3659)
+[2024-03-21T19:51:44.526-0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2024-03-21T19:51:44.537-0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,148 @@
+[2024-03-21T20:17:09.486-0300] {processor.py:153} INFO - Started process (PID=6226) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:17:09.487-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:17:09.487-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:09.487-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:17:09.493-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:09.492-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/python_operators2.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/python_operators2.py", line 32, in <module>
+    python_callable = print_function
+NameError: name 'print_function' is not defined
+[2024-03-21T20:17:09.493-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:17:09.505-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.020 seconds
+[2024-03-21T20:17:40.497-0300] {processor.py:153} INFO - Started process (PID=6281) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:17:40.498-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:17:40.498-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:40.498-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:17:40.504-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:40.504-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/python_operators2.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/python_operators2.py", line 35, in <module>
+    task
+NameError: name 'task' is not defined
+[2024-03-21T20:17:40.504-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:17:40.516-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.021 seconds
+[2024-03-21T20:18:10.770-0300] {processor.py:153} INFO - Started process (PID=6333) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:18:10.771-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:18:10.771-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:10.771-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:18:10.778-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:10.777-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/python_operators2.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/python_operators2.py", line 37, in <module>
+    python_callable = task_a
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 162, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-21T20:18:10.779-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:18:10.791-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.024 seconds
+[2024-03-21T20:18:40.991-0300] {processor.py:153} INFO - Started process (PID=6385) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:18:40.992-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:18:40.992-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:40.992-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:18:40.998-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:40.998-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/python_operators2.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/python_operators2.py", line 50, in <module>
+    task
+NameError: name 'task' is not defined
+[2024-03-21T20:18:40.998-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:18:41.011-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.021 seconds
+[2024-03-21T20:19:11.175-0300] {processor.py:153} INFO - Started process (PID=6437) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:19:11.176-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:19:11.176-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:11.176-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:19:11.186-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:19:11.220-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:11.220-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:19:11.234-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:11.234-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:19:11.257-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.084 seconds
+[2024-03-21T20:19:41.358-0300] {processor.py:153} INFO - Started process (PID=6486) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:19:41.359-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:19:41.359-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:41.359-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:19:41.369-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:19:41.403-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:41.403-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:19:41.418-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:41.418-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:19:41.436-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.080 seconds
+[2024-03-21T20:20:11.541-0300] {processor.py:153} INFO - Started process (PID=6538) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:20:11.542-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:20:11.542-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.542-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:20:11.552-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:20:11.624-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.624-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:execute_python_operators2
+[2024-03-21T20:20:11.633-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.633-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:execute_python_operators2
+[2024-03-21T20:20:11.640-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.640-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:execute_python_operators2
+[2024-03-21T20:20:11.640-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.640-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:20:11.648-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.648-0300] {dag.py:2726} INFO - Creating ORM DAG for execute_python_operators2
+[2024-03-21T20:20:11.655-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:11.655-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-20T00:00:00+00:00, run_after=2024-03-21T00:00:00+00:00
+[2024-03-21T20:20:11.671-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.132 seconds
+[2024-03-21T20:20:42.753-0300] {processor.py:153} INFO - Started process (PID=6593) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:20:42.754-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:20:42.754-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:42.754-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:20:42.763-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:20:42.775-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:42.775-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:20:42.793-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:42.793-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-20T00:00:00+00:00, run_after=2024-03-21T00:00:00+00:00
+[2024-03-21T20:20:42.809-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.058 seconds
+[2024-03-21T20:21:13.234-0300] {processor.py:153} INFO - Started process (PID=6645) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:21:13.235-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:21:13.236-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:13.236-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:21:13.245-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:21:13.256-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:13.256-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:21:13.271-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:13.271-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-20T00:00:00+00:00, run_after=2024-03-21T00:00:00+00:00
+[2024-03-21T20:21:13.286-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.053 seconds
+[2024-03-21T20:21:44.329-0300] {processor.py:153} INFO - Started process (PID=6709) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:21:44.329-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:21:44.330-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:44.329-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:21:44.339-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:21:44.350-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:44.350-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:21:44.365-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:44.365-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:21:44.380-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.053 seconds
+[2024-03-21T20:22:15.309-0300] {processor.py:153} INFO - Started process (PID=6761) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:22:15.310-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:22:15.310-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:15.310-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:22:15.320-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:22:15.332-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:15.332-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:22:15.347-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:15.347-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:22:15.362-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.054 seconds
+[2024-03-21T20:22:45.853-0300] {processor.py:153} INFO - Started process (PID=6816) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:22:45.853-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:22:45.853-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:45.853-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:22:45.864-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:22:45.875-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:45.875-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:22:45.890-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:45.890-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:22:45.907-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.056 seconds
+[2024-03-21T20:23:16.359-0300] {processor.py:153} INFO - Started process (PID=6868) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:23:16.360-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:23:16.360-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:16.360-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:23:16.370-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:23:16.382-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:16.381-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:23:16.396-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:16.396-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:23:16.418-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.061 seconds
+[2024-03-21T20:23:47.090-0300] {processor.py:153} INFO - Started process (PID=6936) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:23:47.090-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:23:47.091-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:47.091-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:23:47.100-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:23:47.112-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:47.112-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:23:47.139-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:47.139-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:23:47.155-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.067 seconds
+[2024-03-21T20:24:17.395-0300] {processor.py:153} INFO - Started process (PID=6988) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:24:17.397-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:24:17.397-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:17.397-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:24:17.406-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:24:17.418-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:17.418-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:24:17.433-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:17.433-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:24:17.450-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.056 seconds
+[2024-03-21T20:24:47.684-0300] {processor.py:153} INFO - Started process (PID=7048) to work on /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:24:47.684-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/python_operators2.py for tasks to queue
+[2024-03-21T20:24:47.685-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:47.685-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:24:47.694-0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operators2']) retrieved from /home/carlosfalcone/airflow/dags/python_operators2.py
+[2024-03-21T20:24:47.706-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:47.706-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:24:47.721-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:47.721-0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operators2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:24:47.736-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/python_operators2.py took 0.054 seconds

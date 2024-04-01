@@ -1,0 +1,1525 @@
+[2024-03-21T19:27:08.923-0300] {processor.py:153} INFO - Started process (PID=1118) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:27:08.923-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:27:08.924-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:27:08.923-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:27:08.932-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks2']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:27:08.965-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:27:08.965-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:27:08.978-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:27:08.978-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:27:08.995-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.074 seconds
+[2024-03-21T19:27:39.238-0300] {processor.py:153} INFO - Started process (PID=1168) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:27:39.238-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:27:39.238-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:27:39.238-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:27:39.246-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks2']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:27:39.258-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:27:39.258-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:27:39.272-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:27:39.272-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:27:39.287-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.051 seconds
+[2024-03-21T19:28:10.079-0300] {processor.py:153} INFO - Started process (PID=1218) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:28:10.080-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:28:10.080-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:28:10.080-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:28:10.088-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks2']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:28:10.093-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:28:10.092-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:28:10.107-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:28:10.107-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks2 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:28:10.123-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.046 seconds
+[2024-03-21T19:28:40.233-0300] {processor.py:153} INFO - Started process (PID=1268) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:28:40.234-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:28:40.234-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:28:40.234-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:28:40.236-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:28:40.235-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/multiple_tasks3.py", line 16
+    template_searchpath = 'home/carlosfalcone/airflow/dags/bash_scripts'
+                      ^
+SyntaxError: invalid syntax
+[2024-03-21T19:28:40.237-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:28:40.249-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.018 seconds
+[2024-03-21T19:29:10.387-0300] {processor.py:153} INFO - Started process (PID=1318) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:29:10.388-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:29:10.388-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:29:10.388-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:29:10.389-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:29:10.389-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/multiple_tasks3.py", line 16
+    template_searchpath = 'home/carlosfalcone/airflow/dags/bash_scripts'
+                      ^
+SyntaxError: invalid syntax
+[2024-03-21T19:29:10.389-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:29:10.402-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.017 seconds
+[2024-03-21T19:29:40.541-0300] {processor.py:153} INFO - Started process (PID=1368) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:29:40.542-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:29:40.542-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:29:40.542-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:29:40.544-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:29:40.543-0300] {dagbag.py:341} ERROR - Failed to import: /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/carlosfalcone/airflow/dags/multiple_tasks3.py", line 16
+    template_searchpath = 'home/carlosfalcone/airflow/dags/bash_scripts'
+                      ^
+SyntaxError: invalid syntax
+[2024-03-21T19:29:40.544-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:29:40.557-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.017 seconds
+[2024-03-21T19:30:10.695-0300] {processor.py:153} INFO - Started process (PID=1418) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:30:10.696-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:30:10.696-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.696-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:30:10.706-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.704-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:30:10.706-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.706-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:30:10.707-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.707-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:30:10.707-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.707-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:30:10.707-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.707-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:30:10.707-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.707-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:30:10.708-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.707-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:30:10.711-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:30:10.781-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.781-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:executing_multiple_tasks3
+[2024-03-21T19:30:10.789-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.789-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:executing_multiple_tasks3
+[2024-03-21T19:30:10.796-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.796-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:executing_multiple_tasks3
+[2024-03-21T19:30:10.796-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.796-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:30:10.804-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.804-0300] {dag.py:2726} INFO - Creating ORM DAG for executing_multiple_tasks3
+[2024-03-21T19:30:10.810-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:10.810-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-20T00:00:00+00:00, run_after=2024-03-21T00:00:00+00:00
+[2024-03-21T19:30:10.830-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.137 seconds
+[2024-03-21T19:30:40.950-0300] {processor.py:153} INFO - Started process (PID=1472) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:30:40.951-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:30:40.951-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.951-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:30:40.959-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.958-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:30:40.959-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.959-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:30:40.959-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.959-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:30:40.960-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.960-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:30:40.960-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.960-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:30:40.960-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.960-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:30:40.960-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.960-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:30:40.964-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:30:40.976-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.976-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:30:40.991-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:30:40.991-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:30:41.005-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:31:11.105-0300] {processor.py:153} INFO - Started process (PID=1522) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:31:11.106-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:31:11.107-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.107-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:31:11.114-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.113-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:31:11.114-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.114-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:31:11.114-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.114-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:31:11.115-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.114-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:31:11.115-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.115-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:31:11.115-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.115-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:31:11.115-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.115-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:31:11.118-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:31:11.130-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.130-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:31:11.144-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:11.144-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:31:11.158-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:31:41.259-0300] {processor.py:153} INFO - Started process (PID=1569) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:31:41.260-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:31:41.260-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.260-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:31:41.268-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.267-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:31:41.268-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.268-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:31:41.268-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.268-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:31:41.268-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.268-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:31:41.269-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.269-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:31:41.269-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.269-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:31:41.269-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.269-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:31:41.272-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:31:41.284-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.284-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:31:41.299-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:31:41.299-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:31:41.314-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:32:11.413-0300] {processor.py:153} INFO - Started process (PID=1619) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:32:11.414-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:32:11.414-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.414-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:32:11.422-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.421-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:32:11.422-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.422-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:32:11.422-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.422-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:32:11.422-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.422-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:32:11.423-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.422-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:32:11.423-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.423-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:32:11.423-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.423-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:32:11.426-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:32:11.438-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.438-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:32:11.452-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:11.452-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:32:11.466-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:32:41.567-0300] {processor.py:153} INFO - Started process (PID=1669) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:32:41.567-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:32:41.568-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:41.568-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:32:41.578-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:32:41.612-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:41.612-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:32:41.625-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:32:41.625-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:32:41.642-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.077 seconds
+[2024-03-21T19:33:11.720-0300] {processor.py:153} INFO - Started process (PID=1754) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:33:11.721-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:33:11.722-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:33:11.722-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:33:11.732-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:33:11.743-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:33:11.743-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:33:11.757-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:33:11.757-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:33:11.772-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:33:41.873-0300] {processor.py:153} INFO - Started process (PID=1804) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:33:41.874-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:33:41.875-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:33:41.875-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:33:41.888-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:33:41.901-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:33:41.901-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:33:41.915-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:33:41.915-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:33:41.930-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.059 seconds
+[2024-03-21T19:34:12.012-0300] {processor.py:153} INFO - Started process (PID=1858) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:34:12.013-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:34:12.013-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:34:12.013-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:34:12.024-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:34:12.036-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:34:12.036-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:34:12.050-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:34:12.050-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:34:12.067-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:34:42.166-0300] {processor.py:153} INFO - Started process (PID=1908) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:34:42.168-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:34:42.168-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:34:42.168-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:34:42.178-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:34:42.190-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:34:42.190-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:34:42.204-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:34:42.204-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:34:42.219-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:35:12.321-0300] {processor.py:153} INFO - Started process (PID=1958) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:35:12.321-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:35:12.321-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:35:12.321-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:35:12.331-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:35:12.343-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:35:12.343-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:35:12.357-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:35:12.357-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:35:12.371-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.052 seconds
+[2024-03-21T19:35:42.473-0300] {processor.py:153} INFO - Started process (PID=2008) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:35:42.474-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:35:42.475-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:35:42.475-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:35:42.485-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:35:42.497-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:35:42.497-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:35:42.510-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:35:42.510-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:35:42.525-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:36:12.627-0300] {processor.py:153} INFO - Started process (PID=2058) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:36:12.628-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:36:12.628-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:36:12.628-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:36:12.638-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:36:12.651-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:36:12.650-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:36:12.665-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:36:12.665-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:36:12.680-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:36:42.779-0300] {processor.py:153} INFO - Started process (PID=2105) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:36:42.780-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:36:42.781-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:36:42.780-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:36:42.791-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:36:42.802-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:36:42.802-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:36:42.817-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:36:42.817-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:36:42.832-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:37:12.933-0300] {processor.py:153} INFO - Started process (PID=2155) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:37:12.933-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:37:12.934-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:37:12.934-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:37:12.944-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:37:12.955-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:37:12.955-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:37:12.969-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:37:12.969-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:37:12.983-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.052 seconds
+[2024-03-21T19:37:43.087-0300] {processor.py:153} INFO - Started process (PID=2206) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:37:43.088-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:37:43.089-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:37:43.089-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:37:43.099-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:37:43.110-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:37:43.110-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:37:43.124-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:37:43.124-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:37:43.138-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:38:13.241-0300] {processor.py:153} INFO - Started process (PID=2257) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:38:13.241-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:38:13.242-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:38:13.242-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:38:13.252-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:38:13.263-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:38:13.263-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:38:13.277-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:38:13.277-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:38:13.292-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.052 seconds
+[2024-03-21T19:38:43.394-0300] {processor.py:153} INFO - Started process (PID=2307) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:38:43.395-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:38:43.396-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:38:43.396-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:38:43.406-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:38:43.417-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:38:43.417-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:38:43.431-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:38:43.431-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:38:43.445-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:39:13.548-0300] {processor.py:153} INFO - Started process (PID=2358) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:39:13.549-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:39:13.549-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:39:13.549-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:39:13.559-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:39:13.571-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:39:13.570-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:39:13.584-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:39:13.584-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:39:13.599-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:39:43.701-0300] {processor.py:153} INFO - Started process (PID=2409) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:39:43.702-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:39:43.703-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:39:43.703-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:39:43.713-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:39:43.724-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:39:43.724-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:39:43.738-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:39:43.738-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:39:43.753-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:40:13.854-0300] {processor.py:153} INFO - Started process (PID=2459) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:40:13.855-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:40:13.855-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:40:13.855-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:40:13.865-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:40:13.878-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:40:13.878-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:40:13.892-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:40:13.892-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:40:13.907-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:40:44.007-0300] {processor.py:153} INFO - Started process (PID=2509) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:40:44.008-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:40:44.008-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:40:44.008-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:40:44.018-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:40:44.030-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:40:44.030-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:40:44.044-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:40:44.044-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:40:44.059-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:41:14.161-0300] {processor.py:153} INFO - Started process (PID=2559) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:41:14.161-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:41:14.162-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:41:14.162-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:41:14.172-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:41:14.184-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:41:14.184-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:41:14.197-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:41:14.197-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:41:14.212-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:41:44.315-0300] {processor.py:153} INFO - Started process (PID=2606) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:41:44.316-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:41:44.316-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:41:44.316-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:41:44.326-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:41:44.338-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:41:44.337-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:41:44.352-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:41:44.351-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:41:44.367-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:42:14.468-0300] {processor.py:153} INFO - Started process (PID=2656) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:42:14.469-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:42:14.469-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.469-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:42:14.477-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.477-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:42:14.477-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.477-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:42:14.478-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.478-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:42:14.478-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.478-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:42:14.478-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.478-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:42:14.478-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.478-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:42:14.479-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.479-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:42:14.482-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:42:14.517-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.517-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:42:14.531-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:14.531-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:42:14.549-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.082 seconds
+[2024-03-21T19:42:44.621-0300] {processor.py:153} INFO - Started process (PID=2710) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:42:44.622-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:42:44.622-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.622-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:42:44.629-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.629-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:42:44.630-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.630-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:42:44.630-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.630-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:42:44.630-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.630-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:42:44.630-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.630-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:42:44.631-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.631-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:42:44.631-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.631-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:42:44.634-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:42:44.646-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.646-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:42:44.661-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:42:44.661-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:42:44.677-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.058 seconds
+[2024-03-21T19:43:14.749-0300] {processor.py:153} INFO - Started process (PID=2760) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:43:14.749-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:43:14.750-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.750-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:43:14.757-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.756-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:43:14.757-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.757-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:43:14.757-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.757-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:43:14.757-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.757-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:43:14.758-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.757-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:43:14.758-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.758-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:43:14.758-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.758-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:43:14.761-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:43:14.773-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.773-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:43:14.787-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:14.787-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:43:14.802-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:43:44.913-0300] {processor.py:153} INFO - Started process (PID=2810) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:43:44.915-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:43:44.915-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.915-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:43:44.922-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.922-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:43:44.922-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.922-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:43:44.923-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.922-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:43:44.923-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.923-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:43:44.923-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.923-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:43:44.923-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.923-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:43:44.923-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.923-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:43:44.927-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:43:44.939-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.939-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:43:44.954-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:43:44.954-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:43:44.971-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.060 seconds
+[2024-03-21T19:44:15.067-0300] {processor.py:153} INFO - Started process (PID=2861) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:44:15.067-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:44:15.068-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.067-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:44:15.074-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.074-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:44:15.075-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.075-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:44:15.075-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.075-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:44:15.075-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.075-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:44:15.075-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.075-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:44:15.076-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.076-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:44:15.076-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.076-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:44:15.079-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:44:15.091-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.091-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:44:15.104-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:15.104-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:44:15.119-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:44:45.219-0300] {processor.py:153} INFO - Started process (PID=2911) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:44:45.220-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:44:45.221-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.221-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:44:45.228-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.228-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:44:45.229-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.228-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:44:45.229-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.229-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:44:45.229-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.229-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:44:45.229-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.229-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:44:45.230-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.229-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:44:45.230-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.230-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:44:45.233-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:44:45.245-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.245-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:44:45.259-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:44:45.259-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:44:45.276-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.058 seconds
+[2024-03-21T19:45:15.372-0300] {processor.py:153} INFO - Started process (PID=2961) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:45:15.373-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:45:15.373-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.373-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:45:15.380-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.380-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:45:15.381-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.381-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:45:15.381-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.381-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:45:15.381-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.381-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:45:15.381-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.381-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:45:15.382-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.381-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:45:15.382-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.382-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:45:15.385-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:45:15.397-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.396-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:45:15.410-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:15.410-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:45:15.426-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:45:45.525-0300] {processor.py:153} INFO - Started process (PID=3011) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:45:45.526-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:45:45.527-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.527-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:45:45.534-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.533-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:45:45.534-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.534-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:45:45.534-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.534-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:45:45.534-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.534-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:45:45.535-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.535-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:45:45.535-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.535-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:45:45.535-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.535-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:45:45.539-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:45:45.550-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.550-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:45:45.564-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:45:45.564-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:45:45.581-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.058 seconds
+[2024-03-21T19:46:15.679-0300] {processor.py:153} INFO - Started process (PID=3061) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:46:15.679-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:46:15.679-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.679-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:46:15.687-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.686-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_A.sh
+[2024-03-21T19:46:15.687-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.687-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_B.sh
+[2024-03-21T19:46:15.687-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.687-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_C.sh
+[2024-03-21T19:46:15.687-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.687-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_D.sh
+[2024-03-21T19:46:15.688-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.688-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_E.sh
+[2024-03-21T19:46:15.688-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.688-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_F.sh
+[2024-03-21T19:46:15.688-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.688-0300] {abstractoperator.py:185} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 183, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/carlosfalcone/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: task_G.sh
+[2024-03-21T19:46:15.692-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:46:15.704-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.704-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:46:15.719-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:15.719-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:46:15.735-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.058 seconds
+[2024-03-21T19:46:45.832-0300] {processor.py:153} INFO - Started process (PID=3113) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:46:45.833-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:46:45.833-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:45.833-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:46:45.844-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:46:45.880-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:45.880-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:46:45.894-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:46:45.894-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:46:45.911-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.081 seconds
+[2024-03-21T19:47:15.985-0300] {processor.py:153} INFO - Started process (PID=3160) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:47:15.985-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:47:15.986-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:47:15.985-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:47:15.997-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:47:16.009-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:47:16.009-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:47:16.023-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:47:16.023-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:47:16.039-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:47:46.140-0300] {processor.py:153} INFO - Started process (PID=3245) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:47:46.141-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:47:46.141-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:47:46.141-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:47:46.151-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:47:46.163-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:47:46.162-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:47:46.176-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:47:46.176-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:47:46.192-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:48:16.396-0300] {processor.py:153} INFO - Started process (PID=3295) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:48:16.396-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:48:16.397-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:48:16.397-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:48:16.407-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:48:16.419-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:48:16.419-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:48:16.433-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:48:16.433-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:48:16.449-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:48:46.652-0300] {processor.py:153} INFO - Started process (PID=3345) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:48:46.653-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:48:46.654-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:48:46.654-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:48:46.664-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:48:46.675-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:48:46.675-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:48:46.688-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:48:46.688-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:48:46.704-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:49:16.908-0300] {processor.py:153} INFO - Started process (PID=3395) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:49:16.909-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:49:16.909-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:49:16.909-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:49:16.919-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:49:16.931-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:49:16.930-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:49:16.944-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:49:16.944-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:49:16.961-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:49:47.165-0300] {processor.py:153} INFO - Started process (PID=3445) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:49:47.166-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:49:47.166-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:49:47.166-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:49:47.176-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:49:47.187-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:49:47.187-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:49:47.201-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:49:47.201-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:49:47.215-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:50:17.421-0300] {processor.py:153} INFO - Started process (PID=3495) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:50:17.421-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:50:17.422-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:50:17.422-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:50:17.432-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:50:17.444-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:50:17.443-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:50:17.458-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:50:17.458-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:50:17.475-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:50:47.577-0300] {processor.py:153} INFO - Started process (PID=3546) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:50:47.578-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:50:47.578-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:50:47.578-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:50:47.588-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:50:47.602-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:50:47.602-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:50:47.618-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:50:47.618-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:50:47.634-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.059 seconds
+[2024-03-21T19:51:17.750-0300] {processor.py:153} INFO - Started process (PID=3604) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:51:17.750-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:51:17.751-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:51:17.751-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:51:17.762-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:51:17.797-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:51:17.797-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:51:17.811-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:51:17.811-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:51:17.843-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.094 seconds
+[2024-03-21T19:51:48.016-0300] {processor.py:153} INFO - Started process (PID=3681) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:51:48.017-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:51:48.018-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:51:48.018-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:51:48.028-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:51:48.040-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:51:48.039-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:51:48.053-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:51:48.053-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:51:48.067-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:52:18.184-0300] {processor.py:153} INFO - Started process (PID=3731) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:52:18.184-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:52:18.184-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:52:18.184-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:52:18.194-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:52:18.206-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:52:18.206-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:52:18.219-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:52:18.219-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:52:18.233-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.051 seconds
+[2024-03-21T19:52:48.419-0300] {processor.py:153} INFO - Started process (PID=3782) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:52:48.420-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:52:48.420-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:52:48.420-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:52:48.430-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:52:48.442-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:52:48.442-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:52:48.456-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:52:48.456-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:52:48.473-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:53:18.613-0300] {processor.py:153} INFO - Started process (PID=3832) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:53:18.613-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:53:18.614-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:53:18.613-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:53:18.624-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:53:18.635-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:53:18.635-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:53:18.649-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:53:18.649-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:53:18.666-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:53:48.801-0300] {processor.py:153} INFO - Started process (PID=3882) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:53:48.802-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:53:48.802-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:53:48.802-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:53:48.813-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:53:48.826-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:53:48.825-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:53:48.840-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:53:48.840-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:53:48.855-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:54:18.994-0300] {processor.py:153} INFO - Started process (PID=3929) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:54:18.995-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:54:18.995-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:54:18.995-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:54:19.006-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:54:19.018-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:54:19.018-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:54:19.033-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:54:19.033-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:54:19.048-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T19:54:49.179-0300] {processor.py:153} INFO - Started process (PID=3989) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:54:49.180-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:54:49.181-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:54:49.180-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:54:49.191-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:54:49.203-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:54:49.203-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:54:49.217-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:54:49.217-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:54:49.233-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:55:19.372-0300] {processor.py:153} INFO - Started process (PID=4039) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:55:19.372-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:55:19.373-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:55:19.372-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:55:19.384-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:55:19.396-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:55:19.396-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:55:19.410-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:55:19.410-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:55:19.427-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.057 seconds
+[2024-03-21T19:55:49.559-0300] {processor.py:153} INFO - Started process (PID=4089) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:55:49.560-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:55:49.560-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:55:49.560-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:55:49.570-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:55:49.582-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:55:49.582-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:55:49.596-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:55:49.596-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:55:49.612-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:56:19.751-0300] {processor.py:153} INFO - Started process (PID=4139) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:56:19.751-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:56:19.752-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:56:19.752-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:56:19.763-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:56:19.775-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:56:19.775-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:56:19.789-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:56:19.789-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:56:19.804-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:56:49.934-0300] {processor.py:153} INFO - Started process (PID=4189) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:56:49.935-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:56:49.935-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:56:49.935-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:56:49.945-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:56:49.957-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:56:49.957-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:56:49.971-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:56:49.971-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:56:49.988-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:57:20.126-0300] {processor.py:153} INFO - Started process (PID=4239) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:57:20.127-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:57:20.127-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:57:20.127-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:57:20.137-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:57:20.149-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:57:20.149-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:57:20.163-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:57:20.163-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:57:20.178-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:57:50.320-0300] {processor.py:153} INFO - Started process (PID=4289) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:57:50.321-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:57:50.322-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:57:50.322-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:57:50.332-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:57:50.344-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:57:50.344-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:57:50.358-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:57:50.358-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:57:50.373-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:58:20.510-0300] {processor.py:153} INFO - Started process (PID=4339) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:58:20.510-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:58:20.511-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:58:20.511-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:58:20.521-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:58:20.532-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:58:20.532-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:58:20.546-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:58:20.546-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:58:20.561-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T19:58:50.698-0300] {processor.py:153} INFO - Started process (PID=4389) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:58:50.699-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:58:50.699-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:58:50.699-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:58:50.709-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:58:50.721-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:58:50.720-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:58:50.734-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:58:50.734-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:58:50.750-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T19:59:20.880-0300] {processor.py:153} INFO - Started process (PID=4439) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:59:20.880-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:59:20.881-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:59:20.881-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:59:20.891-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:59:20.904-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:59:20.904-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:59:20.918-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:59:20.917-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:59:20.934-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T19:59:51.074-0300] {processor.py:153} INFO - Started process (PID=4486) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:59:51.074-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T19:59:51.075-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:59:51.075-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:59:51.085-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T19:59:51.096-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:59:51.096-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T19:59:51.110-0300] {logging_mixin.py:137} INFO - [2024-03-21T19:59:51.110-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T19:59:51.126-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:00:21.266-0300] {processor.py:153} INFO - Started process (PID=4536) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:00:21.267-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:00:21.267-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:00:21.267-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:00:21.278-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:00:21.290-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:00:21.290-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:00:21.305-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:00:21.305-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:00:21.320-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:00:51.450-0300] {processor.py:153} INFO - Started process (PID=4586) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:00:51.451-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:00:51.452-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:00:51.452-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:00:51.462-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:00:51.473-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:00:51.473-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:00:51.487-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:00:51.487-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:00:51.504-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:01:21.635-0300] {processor.py:153} INFO - Started process (PID=4636) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:01:21.636-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:01:21.636-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:01:21.636-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:01:21.646-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:01:21.658-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:01:21.658-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:01:21.672-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:01:21.672-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:01:21.687-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T20:01:51.825-0300] {processor.py:153} INFO - Started process (PID=4686) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:01:51.826-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:01:51.826-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:01:51.826-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:01:51.836-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:01:51.848-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:01:51.848-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:01:51.862-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:01:51.862-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:01:51.877-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:02:22.017-0300] {processor.py:153} INFO - Started process (PID=4736) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:02:22.017-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:02:22.018-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:02:22.018-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:02:22.028-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:02:22.040-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:02:22.040-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:02:22.054-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:02:22.054-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:02:22.069-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:02:52.212-0300] {processor.py:153} INFO - Started process (PID=4787) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:02:52.213-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:02:52.214-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:02:52.214-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:02:52.224-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:02:52.236-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:02:52.236-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:02:52.250-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:02:52.250-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:02:52.265-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:03:22.398-0300] {processor.py:153} INFO - Started process (PID=4838) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:03:22.399-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:03:22.399-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:03:22.399-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:03:22.409-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:03:22.421-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:03:22.421-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:03:22.435-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:03:22.435-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:03:22.453-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:03:52.581-0300] {processor.py:153} INFO - Started process (PID=4889) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:03:52.582-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:03:52.582-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:03:52.582-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:03:52.594-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:03:52.607-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:03:52.607-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:03:52.621-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:03:52.621-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:03:52.635-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:04:22.766-0300] {processor.py:153} INFO - Started process (PID=4939) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:04:22.767-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:04:22.767-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:04:22.767-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:04:22.777-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:04:22.790-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:04:22.789-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:04:22.803-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:04:22.803-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:04:22.820-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:04:52.957-0300] {processor.py:153} INFO - Started process (PID=4989) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:04:52.958-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:04:52.958-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:04:52.958-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:04:52.968-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:04:52.980-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:04:52.980-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:04:52.994-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:04:52.994-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:04:53.009-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:05:23.144-0300] {processor.py:153} INFO - Started process (PID=5036) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:05:23.144-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:05:23.145-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:05:23.144-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:05:23.155-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:05:23.168-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:05:23.168-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:05:23.183-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:05:23.183-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:05:23.198-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:05:53.337-0300] {processor.py:153} INFO - Started process (PID=5086) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:05:53.338-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:05:53.338-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:05:53.338-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:05:53.348-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:05:53.360-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:05:53.360-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:05:53.374-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:05:53.374-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:05:53.390-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:06:23.529-0300] {processor.py:153} INFO - Started process (PID=5136) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:06:23.529-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:06:23.529-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:06:23.529-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:06:23.540-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:06:23.551-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:06:23.551-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:06:23.566-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:06:23.566-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:06:23.581-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:06:53.707-0300] {processor.py:153} INFO - Started process (PID=5186) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:06:53.708-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:06:53.708-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:06:53.708-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:06:53.718-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:06:53.730-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:06:53.730-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:06:53.744-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:06:53.744-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:06:53.759-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:07:23.908-0300] {processor.py:153} INFO - Started process (PID=5237) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:07:23.909-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:07:23.910-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:07:23.910-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:07:23.920-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:07:23.932-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:07:23.932-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:07:23.947-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:07:23.947-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:07:23.962-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:07:54.093-0300] {processor.py:153} INFO - Started process (PID=5288) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:07:54.094-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:07:54.094-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:07:54.094-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:07:54.104-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:07:54.116-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:07:54.116-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:07:54.130-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:07:54.130-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:07:54.145-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:08:24.287-0300] {processor.py:153} INFO - Started process (PID=5339) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:08:24.288-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:08:24.288-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:08:24.288-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:08:24.299-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:08:24.310-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:08:24.310-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:08:24.324-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:08:24.324-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:08:24.341-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:08:54.474-0300] {processor.py:153} INFO - Started process (PID=5390) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:08:54.474-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:08:54.475-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:08:54.475-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:08:54.486-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:08:54.499-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:08:54.499-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:08:54.514-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:08:54.513-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:08:54.528-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.057 seconds
+[2024-03-21T20:09:24.667-0300] {processor.py:153} INFO - Started process (PID=5441) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:09:24.667-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:09:24.668-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:09:24.668-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:09:24.678-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:09:24.691-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:09:24.691-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:09:24.705-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:09:24.705-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:09:24.724-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.058 seconds
+[2024-03-21T20:09:54.851-0300] {processor.py:153} INFO - Started process (PID=5492) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:09:54.851-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:09:54.852-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:09:54.852-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:09:54.862-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:09:54.874-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:09:54.874-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:09:54.889-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:09:54.889-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:09:54.905-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:10:25.039-0300] {processor.py:153} INFO - Started process (PID=5543) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:10:25.040-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:10:25.040-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:10:25.040-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:10:25.051-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:10:25.063-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:10:25.063-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:10:25.077-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:10:25.077-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:10:25.092-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:10:55.240-0300] {processor.py:153} INFO - Started process (PID=5594) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:10:55.240-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:10:55.241-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:10:55.241-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:10:55.251-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:10:55.264-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:10:55.264-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:10:55.278-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:10:55.278-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:10:55.292-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:11:25.443-0300] {processor.py:153} INFO - Started process (PID=5642) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:11:25.444-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:11:25.444-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:11:25.444-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:11:25.455-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:11:25.467-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:11:25.467-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:11:25.481-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:11:25.481-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:11:25.495-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:11:55.617-0300] {processor.py:153} INFO - Started process (PID=5697) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:11:55.618-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:11:55.619-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:11:55.619-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:11:55.629-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:11:55.642-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:11:55.641-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:11:55.656-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:11:55.656-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:11:55.672-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:12:25.875-0300] {processor.py:153} INFO - Started process (PID=5748) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:12:25.875-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:12:25.876-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:12:25.876-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:12:25.886-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:12:25.898-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:12:25.898-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:12:25.913-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:12:25.913-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:12:25.930-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.057 seconds
+[2024-03-21T20:12:56.132-0300] {processor.py:153} INFO - Started process (PID=5799) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:12:56.132-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:12:56.133-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:12:56.133-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:12:56.144-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:12:56.156-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:12:56.156-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:12:56.171-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:12:56.171-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:12:56.186-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:13:26.390-0300] {processor.py:153} INFO - Started process (PID=5850) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:13:26.390-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:13:26.391-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:13:26.391-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:13:26.401-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:13:26.412-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:13:26.412-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:13:26.426-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:13:26.426-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:13:26.442-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:13:56.646-0300] {processor.py:153} INFO - Started process (PID=5901) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:13:56.647-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:13:56.647-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:13:56.647-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:13:56.657-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:13:56.668-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:13:56.668-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:13:56.682-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:13:56.682-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:13:56.699-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:14:26.902-0300] {processor.py:153} INFO - Started process (PID=5952) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:14:26.902-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:14:26.902-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:14:26.902-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:14:26.912-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:14:26.924-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:14:26.924-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:14:26.937-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:14:26.937-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:14:26.952-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.052 seconds
+[2024-03-21T20:14:57.157-0300] {processor.py:153} INFO - Started process (PID=6003) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:14:57.158-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:14:57.159-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:14:57.159-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:14:57.169-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:14:57.181-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:14:57.180-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:14:57.194-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:14:57.194-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:14:57.209-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T20:15:27.413-0300] {processor.py:153} INFO - Started process (PID=6057) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:15:27.414-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:15:27.414-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:15:27.414-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:15:27.424-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:15:27.436-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:15:27.436-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:15:27.450-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:15:27.450-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:15:27.466-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:15:57.670-0300] {processor.py:153} INFO - Started process (PID=6108) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:15:57.671-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:15:57.671-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:15:57.671-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:15:57.682-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:15:57.694-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:15:57.694-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:15:57.708-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:15:57.708-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:15:57.724-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:16:27.926-0300] {processor.py:153} INFO - Started process (PID=6159) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:16:27.926-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:16:27.927-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:16:27.927-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:16:27.937-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:16:27.949-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:16:27.949-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:16:27.963-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:16:27.963-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:16:27.979-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:16:58.052-0300] {processor.py:153} INFO - Started process (PID=6210) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:16:58.053-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:16:58.053-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:16:58.053-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:16:58.063-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:16:58.075-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:16:58.075-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:16:58.089-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:16:58.089-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:16:58.103-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.053 seconds
+[2024-03-21T20:17:28.269-0300] {processor.py:153} INFO - Started process (PID=6262) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:17:28.269-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:17:28.269-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:28.269-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:17:28.279-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:17:28.292-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:28.291-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:17:28.306-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:28.306-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:17:28.323-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:17:58.541-0300] {processor.py:153} INFO - Started process (PID=6314) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:17:58.542-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:17:58.542-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:58.542-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:17:58.553-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:17:58.565-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:58.565-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:17:58.579-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:17:58.579-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:17:58.593-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:18:28.726-0300] {processor.py:153} INFO - Started process (PID=6366) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:18:28.726-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:18:28.727-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:28.727-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:18:28.737-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:18:28.749-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:28.749-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:18:28.762-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:28.762-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:18:28.778-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:18:58.907-0300] {processor.py:153} INFO - Started process (PID=6415) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:18:58.908-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:18:58.908-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:58.908-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:18:58.919-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:18:58.931-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:58.931-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:18:58.945-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:18:58.945-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:18:58.961-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:19:29.088-0300] {processor.py:153} INFO - Started process (PID=6467) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:19:29.089-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:19:29.089-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:29.089-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:19:29.100-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:19:29.112-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:29.112-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:19:29.126-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:29.126-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:19:29.141-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:19:59.269-0300] {processor.py:153} INFO - Started process (PID=6519) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:19:59.270-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:19:59.271-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:59.271-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:19:59.281-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:19:59.293-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:59.293-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:19:59.307-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:19:59.307-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:19:59.323-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:20:29.450-0300] {processor.py:153} INFO - Started process (PID=6571) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:20:29.450-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:20:29.450-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:29.450-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:20:29.462-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:20:29.474-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:29.473-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:20:29.488-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:29.488-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:20:29.505-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.057 seconds
+[2024-03-21T20:20:59.630-0300] {processor.py:153} INFO - Started process (PID=6623) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:20:59.631-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:20:59.631-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:59.631-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:20:59.642-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:20:59.654-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:59.653-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:20:59.668-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:20:59.668-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:20:59.684-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:21:31.211-0300] {processor.py:153} INFO - Started process (PID=6690) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:21:31.211-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:21:31.212-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:31.211-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:21:31.222-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:21:31.234-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:31.234-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:21:31.249-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:21:31.249-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:21:31.264-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.055 seconds
+[2024-03-21T20:22:01.345-0300] {processor.py:153} INFO - Started process (PID=6742) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:22:01.346-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:22:01.347-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:01.346-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:22:01.357-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:22:01.369-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:01.369-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:22:01.383-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:01.383-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:22:01.398-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:22:31.574-0300] {processor.py:153} INFO - Started process (PID=6794) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:22:31.574-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:22:31.575-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:31.575-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:22:31.586-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:22:31.599-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:31.599-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:22:31.614-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:22:31.613-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:22:31.629-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.056 seconds
+[2024-03-21T20:23:01.846-0300] {processor.py:153} INFO - Started process (PID=6843) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:23:01.847-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:23:01.847-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:01.847-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:23:01.858-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:23:01.869-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:01.869-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:23:01.885-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:01.885-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:23:01.902-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.058 seconds
+[2024-03-21T20:23:37.055-0300] {processor.py:153} INFO - Started process (PID=6916) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:23:37.056-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:23:37.057-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:37.057-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:23:37.067-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:23:37.079-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:37.079-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:23:37.093-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:23:37.093-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:23:37.107-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:24:07.184-0300] {processor.py:153} INFO - Started process (PID=6972) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:24:07.185-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:24:07.185-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:07.185-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:24:07.195-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:24:07.207-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:07.207-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:24:07.222-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:07.222-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:24:07.237-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.054 seconds
+[2024-03-21T20:24:37.442-0300] {processor.py:153} INFO - Started process (PID=7024) to work on /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:24:37.442-0300] {processor.py:743} INFO - Processing file /home/carlosfalcone/airflow/dags/multiple_tasks3.py for tasks to queue
+[2024-03-21T20:24:37.443-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:37.443-0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:24:37.454-0300] {processor.py:753} INFO - DAG(s) dict_keys(['executing_multiple_tasks3']) retrieved from /home/carlosfalcone/airflow/dags/multiple_tasks3.py
+[2024-03-21T20:24:37.466-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:37.466-0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-21T20:24:37.481-0300] {logging_mixin.py:137} INFO - [2024-03-21T20:24:37.481-0300] {dag.py:3456} INFO - Setting next_dagrun for executing_multiple_tasks3 to 2024-03-21T00:00:00+00:00, run_after=2024-03-22T00:00:00+00:00
+[2024-03-21T20:24:37.497-0300] {processor.py:175} INFO - Processing /home/carlosfalcone/airflow/dags/multiple_tasks3.py took 0.057 seconds
